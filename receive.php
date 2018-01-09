@@ -1,5 +1,5 @@
 <?php
- echo "Hello, I am Captain America!/n";
+ echo "Hello, I am Captain America!\n";
  echo "Send me a Line Message!";
  $json_str = file_get_contents('php://input'); //接收REQUEST的BODY
  $json_obj = json_decode($json_str); //轉JSON格式
